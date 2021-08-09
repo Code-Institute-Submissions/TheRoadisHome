@@ -8,7 +8,7 @@
 
 body {
     font-family: Raleway, sans-serif;
-    color: #777777
+    color: red;
 }
 
 h2 {
@@ -29,6 +29,10 @@ h2 {
     letter-spacing: 4px;
 }
 
+#logo, #menu {
+    line-height: 75px;
+}
+
 nav ul {
     float: right;
 }
@@ -36,4 +40,42 @@ nav ul {
 #menu li {
     display: inline;
     margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+#hero-image {
+    height: 300px;
+    width: 100%;
+    background: no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1)
+    }
+    to{
+        transform: scale(1.1)
+    }
 }
