@@ -16,10 +16,7 @@ h2 {
     color: #444444;
 }
 
-section {
-    padding-top: 3rem;
-    position: relative;
-}
+
 
 #logo {
     float: left;
@@ -155,6 +152,16 @@ footer {
     padding: 30px;
 }
 
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 5px; // 1
+  font-family: inherit;
+  @include font-size(inherit);
+  line-height: inherit;
+}
 
 
 

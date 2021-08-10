@@ -14,7 +14,9 @@
         <a href="index.html">
         <h2 id="logo">The Road is Home</h2>
         </a>
+    </header>
         <nav>
+    
             <ul id="menu">
                 <li>
                     <a href="index.html">Home</a>
@@ -36,27 +38,33 @@
    
                
         
-                    <section class="form-section">
+                    <section id="form-section">
+
                            <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
-                                 <h2>Contact Us</h2>
+                                 <h3>Contact Us</h3>
                                  <div>
                                  <label for="fname">First Name*:</label>
                                  <input type="text" id="fname" name="first_name" placeholder="First Name" required/></div>
-                                <div><label for="lname">Last Name*:</label>
-                                <input type="text" id="lname" name="last_name" placeholder="Last Name" required/>
-                                </div> 
+                                
+                                 <div>
+                                <label for="lname">Last Name*:</label>
+                                <input type="text" id="lname" name="last_name" placeholder="Last Name" required/></div>
+                                 
+                                <div>
                                 <label for="email">Email Address*:</label>
                                  <input id="email" type="email" name="email_address" placeholder="Email Address" required/>
+                                </div>
                                  <p>Is your enquiry regarding an existing booking?*:</p>
                                  <label for="yes">Yes</label>
                                  <input id="yes" type="radio" name="existing_booking" value="yes" required/>
                                  <label for="no">No</label>
                                 <input id="no" type="radio" name="existing_booking" value="no"/>
                                 </div>
-                                <div>
+                                
+                                
                                 <label for="bookingref">Booking reference:</label>
                                 <input type="text" id="bookingref" name="booking_ref" placeholder="if applicable"/> 
-                                </div>
+        
                                 <div>
                                     <label for="enquirytype">Enquiry type*:</label>
                                     <select name="enquirytype" id="enquirytype" required>
