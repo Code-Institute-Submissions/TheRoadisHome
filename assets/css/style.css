@@ -57,7 +57,7 @@ nav ul {
 }
 
 #hero-image {
-    height: 300px;
+    height: 400px;
     width: 100%;
     background: no-repeat center center;
 
@@ -67,7 +67,7 @@ nav ul {
 }
 
 #hero-outer {
-    height: 300px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
 }
@@ -167,4 +167,55 @@ select,
 optgroup,
 textarea {
   margin: 5px;
+}
+
+#choose-us {
+    height: 650px;
+}
+
+#left-why {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+}
+
+#right-why {
+    padding-top: 20px;
+    width: 33%;
+    float: right;
+}
+
+#center-why {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 8px;
+}
+
+.left-why-heading {
+    width: 50%;
+    float: right;
+    line-height: 18px;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.right-why-heading {
+    width: 50%;
+    float: left;
+    line-height: 18px;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.right-why-heading h4 {
+    text-align: right;
+}
+
+.right-why-heading p {
+    text-align: right;
 }
