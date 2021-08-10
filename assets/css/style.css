@@ -92,3 +92,48 @@ nav ul {
     max-width: 350px; 
     margin: auto;
 }
+
+footer {
+    height: 150px;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 3%;
+    color: #777777;
+}
+
+
+
+
+
+#our-tours {
+    text-align: center;
+    padding: 5px 0;
+}
+
+#our-tours p {
+    margin: 0 10px;
+    line-height: 1em;
+}
+
+
+.gallery {
+  column-count: 4;
+  column-gap: 0px;
+  margin-top: 20px;
+}
+
+.gallery > img {
+  width: 100%;
+}
