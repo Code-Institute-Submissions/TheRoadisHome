@@ -82,11 +82,15 @@ nav ul {
 }
 
 .card-img-top {
-    border-radius: 10px;
+    border-radius: 30px;
     width: 100%;
     height: 100%;
     max-width: 350px; 
     margin: auto;
+}
+
+.card {
+    border: 0
 }
 
 footer {
@@ -115,15 +119,19 @@ footer {
 
 #our-tours {
     text-align: center;
-    padding: 5px 0;
-    font-size: 200%;
+    padding: 10px 0;
+    font-size: 100%;
 }
 
 #our-tours p {
-    margin: 0 10px;
+    margin: 10px;
     line-height: 1em;
 }
 
+.intro {
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 .gallery {
   column-count: 4;
@@ -132,8 +140,9 @@ footer {
 }
 
 .gallery > img {
-  width: 100%;
-  margin: 5px 0 5px 0;
+  width: 80%;
+  margin: 30px;
+  border-radius: 50%;
 }
 
 /* Contact form */
@@ -145,18 +154,22 @@ h1 {
     color: #302d2d;
 }
 
-.form-section {
+#contact-us {
+    height: 700px;
+}
+
+.contact-us {
     background-size: cover;
     background-position: center;
-    max-height: 700px;
+    max-height: 600px;
 }
 
 .contact-form {
-    margin: 120px auto;
+    margin: 80px auto;
     color: #fff;
-    background: rgba(58, 58, 58, 0.5);
+    background-color: rgba(58, 58, 58, 0.5);
     max-width: 800px;
-    position: fixed;
+    position: absolute;
     padding: 30px;
     border: 4px dashed black;
     border-radius: 30px;
@@ -182,7 +195,7 @@ textarea {
 
 
 #choose-us {
-    height: 650px;
+    height: 550px;
 }
 
 #left-why {
@@ -209,7 +222,7 @@ hr {
 }
 
 .left-why-heading {
-    width: 50%;
+    width: 75%;
     float: right;
     line-height: 18px;
     clear: both;
@@ -217,7 +230,7 @@ hr {
 }
 
 .right-why-heading {
-    width: 50%;
+    width: 75%;
     float: left;
     line-height: 18px;
     clear: both;
