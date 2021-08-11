@@ -138,29 +138,37 @@ footer {
 
 /* Contact form */
 
-h3 {
+h1 {
     text-transform: uppercase;
-    text-align: center;
+    letter-spacing: 4px;
     padding-bottom: 20px;
-    color: black;
+    color: #302d2d;
 }
 
 .form-section {
     background-size: cover;
     background-position: center;
-    height: 700px;
+    max-height: 700px;
 }
 
 .contact-form {
-    margin: 150px 0 50px 200px;
+    margin: 120px auto;
     color: #fff;
-    background: rgba(50, 50, 50, 0.5);
+    background: rgba(58, 58, 58, 0.5);
     max-width: 800px;
-    position: absolute;
+    position: fixed;
     padding: 30px;
+    border: 4px dashed black;
     border-radius: 30px;
-    float: left;
+    display: inline-block;
 }
+
+.contact {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
 
 input,
 button,
@@ -169,6 +177,9 @@ optgroup,
 textarea {
   margin: 5px;
 }
+
+
+
 
 #choose-us {
     height: 650px;
