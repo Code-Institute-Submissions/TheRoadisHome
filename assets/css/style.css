@@ -306,7 +306,29 @@ hr {
 
 /* ABOUT PAGE */
 
+.flex-text {
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex: 50%;
+  }
+  
 
+.flex-right {
+    background: #e7cfcf url("../images/sun.jpeg") no-repeat center;"
+    background-size: cover;
+    max-height: 800px;
+    width: 100%;
+    flex: 25%;
+}
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    width: 100%;
+  }
 
-
+  .who-are-we {
+      color:coral;
+      margin-top: 20px;
+  }
