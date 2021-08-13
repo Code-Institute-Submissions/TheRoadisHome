@@ -131,7 +131,8 @@ nav ul {
 /* FOOTER */
 
 footer {
-    height: 150px;
+    height: 80px;
+    background-color: coral;
 }
 
 .social-networks {
@@ -145,7 +146,7 @@ footer {
 .social-networks i {
     font-size: 150%;
     margin: 1%;
-    padding: 3%;
+    padding: 10px;
     color: #404040;
 }
 
@@ -326,6 +327,7 @@ hr {
     flex-direction: row;
     font-size: 15px;
     width: 100%;
+    margin-bottom: 90px;
   }
 
   .who-are-we {
