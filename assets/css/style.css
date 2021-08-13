@@ -149,6 +149,7 @@ footer {
 }
 
 
+
 /* GALLERY */
 
 
@@ -231,6 +232,7 @@ textarea {
 
 #choose-us {
     height: 550px;
+    background-color: rgba(102, 101, 102, 0.096);
 }
 
 #left-why {
