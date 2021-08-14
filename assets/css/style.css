@@ -335,3 +335,34 @@ hr {
       color:coral;
       margin-top: 20px;
   }
+
+
+  /* TOURS */
+
+#tours {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#tours p {
+    margin: 0 10px;
+    line-height: 1em;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.imgs {
+      
+        column-count: 4;
+        column-gap: 0px;
+        margin-top: 25px;
+}
+
+.imgs > img {
+    width: 100%;
+    border-radius: 10%;
+    padding: 5%;
+}
