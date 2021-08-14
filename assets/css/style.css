@@ -183,7 +183,7 @@ footer {
     padding: 5%;
 }
 
-/* Contact form */
+/* CONTACT PAGE */
 
 h1 {
     text-transform: uppercase;
@@ -192,34 +192,22 @@ h1 {
     color: #404040;
 }
 
-#contact-us {
-    height: 700px;
-}
-
 .contact-us {
     background-size: cover;
     background-position: center;
-    max-height: 600px;
+    margin-top: 40px;
 }
 
 .contact-form {
-    margin: 120px auto;
+    margin: auto;
     color: #fff;
     background-color: rgba(58, 58, 58, 0.5);
-    max-width: 800px;
-    position: absolute;
+    width: 600px;
     padding: 30px;
     border: 4px dashed black;
     border-radius: 30px;
-    display: inline-block;
-}
-
-.contact {
     display: block;
-    margin: 0 auto;
-    max-width: 100%;
 }
-
 
 input,
 button,
@@ -230,7 +218,20 @@ textarea {
 }
 
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 
+main {
+    flex-grow: 1;
+}
+
+
+
+/* WHY CHOOSE US */
 
 #choose-us {
     height: 550px;
@@ -315,7 +316,7 @@ hr {
   
 
 .flex-right {
-    background: #e7cfcf url("../images/sun.jpeg") no-repeat center;"
+    background: #e7cfcf url("../images/sun.jpeg") no-repeat center;
     background-size: cover;
     max-height: 800px;
     width: 100%;
