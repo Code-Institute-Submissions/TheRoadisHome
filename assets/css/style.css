@@ -141,9 +141,7 @@ a:hover {
     border: 0
 }
 
-.row {
-    margin-bottom: 40px;
-}
+
 
 .my-5 {
     margin-bottom: 20px;
@@ -326,6 +324,10 @@ hr {
 
 /* ABOUT PAGE */
 
+.heading {
+  text-align: center;
+}
+
 .flex-text {
     background-color: #f1f1f1;
     padding: 20px;
@@ -346,7 +348,7 @@ hr {
     flex-direction: row;
     font-size: 15px;
     width: 100%;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
   }
 
   .who-are-we {
@@ -371,7 +373,7 @@ hr {
     width: 100%;
   }
   
-  .container-fostrap {
+  .container-tours {
     display: table-cell;
     padding: 1em;
     text-align: center;
@@ -381,9 +383,8 @@ hr {
   h1.heading {
     color: #fff;
     font-size: 1.15em;
-    font-weight: 900;
     margin: 0 0 0.5em;
-    color: #505050;
+    color: #404040;
   }
   @media (min-width: 450px) {
     h1.heading {
