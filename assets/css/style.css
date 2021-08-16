@@ -30,29 +30,17 @@ h3 {
     font-size: 32px;
 }
 
-
 #logo {
     float: left;
     font-size: 280%;
 }
 
+/* NAV BAR */
+
 #menu {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 5px;
-}
-
-#logo, #menu {
-    line-height: 75px;
-}
-
-nav ul {
-    float: right;
-}
-
-#menu li {
-    display: inline;
-    margin-right: 30px;
 }
 
 #menu a {
@@ -75,6 +63,14 @@ a {
 a:hover {
     color:black;
 }
+
+.navbar-nav {
+  float: right;
+}
+
+
+
+
 
 /*HERO IMAGE*/
 .hero-outer{
