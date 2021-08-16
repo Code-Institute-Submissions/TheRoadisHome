@@ -512,3 +512,14 @@ hr {
       text-transform: uppercase;
       font-size: 18px;
   }
+
+
+  /* POPULAR TOURS */
+
+  .card-body p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-style: italic;
+  }
