@@ -347,10 +347,10 @@ hr {
   }
 }
 
-@media screen and (max-width: 943px); {
+@media screen and (max-width: 943px) {
   #choose-us {
-    width: 90%
-    height: 1000px;
+    width: 90%;
+    height: 1100px;
     margin: 0 auto;
   }
 
@@ -376,6 +376,12 @@ hr {
     line-height: 25px;
   }
 
+  #center-why {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
 }
 
 /* ABOUT PAGE */
