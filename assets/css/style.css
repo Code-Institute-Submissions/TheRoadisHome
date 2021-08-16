@@ -322,6 +322,27 @@ hr {
     border-radius: 30%; 
 }
 
+@media screen and (max-width: 1393px) {
+  #choose-us {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  #left-why, #right-why {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  #center-why {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+}
+
 /* ABOUT PAGE */
 
 .heading {
