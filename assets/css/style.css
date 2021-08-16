@@ -350,6 +350,10 @@ hr {
   hr {
     display: none;
   }
+  
+  main {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 943px) {
@@ -394,7 +398,7 @@ hr {
 .heading {
   text-align: center;
 }
-
+/*
 .flex-text {
     background-color: #f1f1f1;
     padding: 20px;
@@ -403,11 +407,11 @@ hr {
   
 
 .flex-right {
-    background: #e7cfcf url("../images/about.jpg") no-repeat center;
+    background: url("../images/about.jpg") no-repeat center;
     background-size: cover;
-    max-height: 800px;
+    max-height: 100%;
     width: 100%;
-    flex: 25%;
+    flex: 50%;
 }
 
 .flex-container {
@@ -417,7 +421,7 @@ hr {
     width: 100%;
     margin-bottom: 30px;
   }
-
+*/
   .who-are-we {
       color:coral;
       margin-top: 20px;
