@@ -413,8 +413,10 @@ hr {
 }
 
 .col-sm-12 {
-  background-color: #404040 rgba(58, 58, 58, 0.5));
+  background-color: rgba(215, 215, 212, 0.4);
   border: 2px dashed coral;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 
