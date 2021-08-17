@@ -232,7 +232,23 @@ main {
     flex-grow: 1;
 }
 
+@media screen and (max-width: 943px) {
+  .contact-us {
+    width: 95%;
+    height: 850px;
+    margin: 0 auto;
+  }
 
+  .contact-form {
+    width: 95%;
+    height: 850px;
+    margin: 0 auto;
+  }
+
+  textarea {
+    width:90%;
+}
+}
 
 /* WHY CHOOSE US */
 
