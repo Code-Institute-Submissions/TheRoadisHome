@@ -46,6 +46,10 @@ nav a {
   letter-spacing: 4px;
 }
 
+.active{
+  border-bottom: 1px solid coral;
+}
+
 
 /*HERO IMAGE*/
 .hero-outer{
