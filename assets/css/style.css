@@ -106,7 +106,7 @@ nav a {
   .hero-text button:hover {
     background-color: transparent;
     border: 4px solid black;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 1px coral;
   }
   
   @media screen and (max-width: 700px) {
@@ -115,6 +115,9 @@ nav a {
     }
   }
   
+  i {
+    color: coral;
+  }
   
 
 .card-img-top {
