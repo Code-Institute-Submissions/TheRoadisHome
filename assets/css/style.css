@@ -347,6 +347,16 @@ hr {
     padding: 0;
   }
 
+  .left-why-heading h4, .right-why-heading h4 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-why-heading p, .right-why-heading p {
+    text-align: center;
+    padding: 0 10px 0 10px;
+  }
+
   hr {
     display: none;
   }
@@ -395,6 +405,10 @@ hr {
 
 /* ABOUT PAGE */
 
+.about-us-page {
+  padding: 1em;
+}
+
 .heading {
   text-align: center;
 }
@@ -438,10 +452,11 @@ hr {
   
   h1.heading {
     color: #fff;
-    font-size: 1.15em;
-    margin: 0 0 0.5em;
+    font-size: 2em;
     color: #404040;
+    margin-top: 20px;
   }
+
   @media (min-width: 450px) {
     h1.heading {
       font-size: 3.55em;
@@ -498,7 +513,7 @@ hr {
     text-decoration: none !important;
   }
   .card-price {
-    border-top: 1px solid #D4D4D4;
+    border-top: 1.5px dotted coral;
   }
 
   #tour-contact {
