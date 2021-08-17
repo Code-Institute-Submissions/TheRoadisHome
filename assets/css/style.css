@@ -144,6 +144,7 @@ footer {
 
 .social-networks {
     text-align: center;
+    padding: 0;
 }
 
 .social-networks li {
@@ -202,6 +203,7 @@ h1 {
 .contact-us {
     background-size: cover;
     background-position: center;
+    margin: 20px;
 }
 
 .contact-form {
@@ -223,6 +225,13 @@ textarea {
   margin: 5px;
 }
 
+label {
+  display: inline;
+}
+
+.form-text {
+  display: flex;
+}
 
 body {
     min-height: 100vh;
@@ -238,8 +247,9 @@ main {
 @media screen and (max-width: 943px) {
   .contact-us {
     width: 95%;
-    height: 850px;
+    height: 820px;
     margin: 0 auto;
+    margin-top: 10px;
   }
 
   .contact-form {
