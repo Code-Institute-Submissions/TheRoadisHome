@@ -32,6 +32,12 @@ h3 {
 
 /* NAV BAR */
 
+
+
+.nav-item {
+  margin: 10px;
+}
+
 .navbar-brand {
   font-size: 1.4rem;
 }
