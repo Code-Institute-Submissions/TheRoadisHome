@@ -191,6 +191,18 @@ footer {
     padding: 5%;
 }
 
+@media screen and (max-width: 943px){
+  .gallery{
+      column-count: 2;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .gallery{
+      column-count: 2;
+  }
+}
+
 /* CONTACT PAGE */
 
 h1 {
@@ -247,14 +259,14 @@ main {
 @media screen and (max-width: 943px) {
   .contact-us {
     width: 95%;
-    height: 820px;
+    height: 780px;
     margin: 0 auto;
     margin-top: 10px;
   }
 
   .contact-form {
     width: 95%;
-    height: 850px;
+    height: 780px;
     margin: 0 auto;
   }
 
@@ -262,6 +274,11 @@ main {
     width:90%;
 }
 }
+
+@media screen and (max-width: 1393px) {
+  
+
+
 
 /* WHY CHOOSE US */
 
