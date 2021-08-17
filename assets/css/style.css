@@ -458,6 +458,11 @@ hr {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .left-why-heading, .right-why-heading {
+    width:100%;
+  }
+}
 /* ABOUT PAGE */
 
 .about-us-page {
