@@ -276,6 +276,20 @@ main {
 }
 }
 
+@media screen and (max-width: 1024px) {
+  .section-container {
+    font-size: 150%;
+    margin: 10px;
+  }
+}  
+
+@media screen and (max-width: 1366px) {
+  .contact-form {
+    font-size: 30px;
+    width: 900px;
+    height: 80vh;
+  }
+}
 
 /* WHY CHOOSE US */
 
@@ -493,9 +507,9 @@ hr {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (max-width: 1366px) {
   .container {
-    font-size: 1vw;
+    font-size: 28px;
   }
 }
 
