@@ -277,19 +277,23 @@ main {
 }
 
 @media screen and (max-width: 1024px) {
-  .section-container {
-    font-size: 150%;
-    margin: 10px;
-  }
-}  
-
-@media screen and (max-width: 1366px) {
   .contact-form {
-    font-size: 30px;
-    width: 900px;
-    height: 80vh;
+    width: auto;
+    font-size: 26px;
+    margin: 20px;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .contact-form {
+    width: auto;
+    font-size: 18px;
+  }
+}
+
+ 
+
+
 
 /* WHY CHOOSE US */
 
