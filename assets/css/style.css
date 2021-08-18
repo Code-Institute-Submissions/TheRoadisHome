@@ -257,6 +257,10 @@ main {
     flex-grow: 1;
 }
 
+.section-container {
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 943px) {
   .contact-us {
     width: 100%;
@@ -279,7 +283,7 @@ main {
 @media screen and (max-width: 1024px) {
   .contact-form {
     width: auto;
-    font-size: 26px;
+    font-size: 24px;
     margin: 20px;
   }
 }
