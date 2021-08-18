@@ -618,3 +618,11 @@ hr {
     font-size: 28px;
     letter-spacing: 6px;
   }
+
+  /* 404 ERROR PAGE */
+
+  .error {
+    text-align: center;
+    font-size: 48px;
+    margin: 60px;
+  }
