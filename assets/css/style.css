@@ -30,6 +30,16 @@ h3 {
     font-size: 32px;
 }
 
+a:link {
+  color: coral;
+  text-decoration: none;
+}
+
+a:visited {
+  color: coral;
+  text-decoration: none;
+}
+
 /* NAV BAR */
 
 .nav-item {
