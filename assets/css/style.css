@@ -35,11 +35,6 @@ a:link {
   text-decoration: none;
 }
 
-a:visited {
-  color: coral;
-  text-decoration: none;
-}
-
 /* NAV BAR */
 
 .nav-item {
@@ -58,7 +53,7 @@ nav a {
 }
 
 .active{
-  border-bottom: 1px solid coral;
+  border-bottom: 1px solid #404040;
 }
 
 
