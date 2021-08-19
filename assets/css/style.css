@@ -593,6 +593,7 @@ hr {
   .card-content {
     padding:15px;
     text-align:left;
+    font-size: 14pt;
   }
   .card-title {
     margin-top:0px;
