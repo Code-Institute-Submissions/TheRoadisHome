@@ -27,7 +27,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #404040; 
-    font-size: 32px;
+    font-size: 32pt;
 }
 
 a:link {
@@ -122,7 +122,7 @@ nav a {
 
   @media screen and (max-width: 320px) {
     .hero-text h1 {
-      font-size: 36px;
+      font-size: 36pt;
       padding-top: 80px;
     }
   }
@@ -288,7 +288,7 @@ main {
 @media screen and (max-width: 1024px) {
   .contact-form {
     width: auto;
-    font-size: 24px;
+    font-size: 24pt;
     margin: 20px;
   }
 }
@@ -296,7 +296,7 @@ main {
 @media screen and (max-width: 414px) {
   .contact-form {
     width: auto;
-    font-size: 18px;
+    font-size: 18pt;
   }
 }
 
@@ -508,7 +508,7 @@ hr {
 #road-home {
   text-align: center;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 22pt;
   font-style: italic;
   font-weight: 100;
 }
@@ -610,7 +610,7 @@ hr {
   #tour-contact {
       text-align: center;
       text-transform: uppercase;
-      font-size: 18px;
+      font-size: 18pt;
       padding: 0 10px 0 10px;
   }
 
@@ -620,14 +620,34 @@ hr {
   .card-body p {
     text-align: center;
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 28pt;
     letter-spacing: 6px;
+  }
+
+  .card-body button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 5px;
+    color: black;
+    background-color: rgba(102, 101, 102, 0.096);
+    text-align: center;
+    border: 1px solid black;
+    font-size: 10pt;
+    letter-spacing: 8px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .card-body button:hover {
+    border: 2px solid black;
+    text-shadow: 1px 1px black;
   }
 
   /* 404 ERROR PAGE */
 
   .error {
     text-align: center;
-    font-size: 48px;
+    font-size: 48pt;
     margin: 60px;
   }
