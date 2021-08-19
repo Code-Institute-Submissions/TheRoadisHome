@@ -67,7 +67,7 @@ nav a {
 .hero-text h1 {
     padding-top: 8%;
     color: #fff;
-    font-size: -webkit-xxx-large;
+    font-size: 34pt;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
@@ -122,7 +122,7 @@ nav a {
 
   @media screen and (max-width: 320px) {
     .hero-text h1 {
-      font-size: 36pt;
+      font-size: 28pt;
       padding-top: 80px;
     }
   }
@@ -296,7 +296,7 @@ main {
 @media screen and (max-width: 414px) {
   .contact-form {
     width: auto;
-    font-size: 18pt;
+    font-size: 16pt;
   }
 }
 
@@ -454,7 +454,7 @@ hr {
 @media screen and (max-width: 320px) {
   #choose-us {
     width: 90%;
-    height: 1000px;
+    height: 1100px;
     margin: 0 auto;
   }
 
@@ -523,6 +523,13 @@ hr {
 @media screen and (max-width: 1366px) {
   .container {
     font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    font-size: 18px;
+    padding: 5px;
   }
 }
 
