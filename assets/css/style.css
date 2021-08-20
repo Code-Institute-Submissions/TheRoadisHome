@@ -215,7 +215,7 @@ footer {
     padding: 5%;
 }
 
-@media screen and (max-width: 1243px) {
+@media screen and (max-width: 1024px) {
   .gallery {
   column-count: 2;
   }
