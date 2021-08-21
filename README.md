@@ -189,6 +189,74 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 - W3C - HTML and CSS validators - used to validate code
 
 
+# Testing
+
+## Validators
+
+  - [W3C HTML validator](https://validator.w3.org/) - I ran each page of the site through the validator and a few typos and stray /div tags were found. I amended these to remove the errors.
+
+  - [W3C CSS validator](http://jigsaw.w3.org/css-validator/) - No errors but a 'warning' that the button within the hero image had the same colour (black) for the background and the border. As this was intentional (the background becomes transparent when hovered over) I chose to ignore this warning. 
+
+## Lighthouse
+  - screenshots
+
+
+## Manual testing
+
+  - ### Navigation (on all pages)
+    - Logo navigates to the home page
+    - 'Home', 'Tours', 'About' and 'Contact' all link to correct pages
+    - Confirm that the current page the user is on becomes underlined
+    - Confirm that the navbar becomes hamburger menu on tablets/mobiles
+
+  - ### Homepage
+    - Verify 'read more' button links navigate to relevant pages
+    - Verify all images and text are displayed correctly on all devices
+
+  - ### Footer
+    - Social media links all open in new tab
+    - Lightning bolt icon opens 404 error page
+    - Verify footer sticks to bottom of each page
+
+  - ### Tours page
+    - Verify page is responsive
+    - Verify 'contact us' link directs to correct page
+
+  - ### About page
+    - Verify page is responsive
+    - Verify link to PDF download opens in new tab
+
+  - ### Contact page
+    - Verify form/page is responsive
+    - Verify that if you try and submit the form without the required fields, an error message appears
+    - Verify that a valid email address containing @ is required to submit the form
+    - Verify that 'clear' resets the form
+    - Verify that the Code Institute confirmation appears when form is submitted successfully
+
+## User Testing
+
+1. As a first time visitor to the site, I want to easily navigate it.
+    - Users can use the navigation bar or click on the company logo from any page of the website to return to the homepage.
+    - The layout is sectioned and titled so it is easy to see where each one starts and ends.
+2. As a user, I want to know what is being provided and what the values of the company are.
+    - A user can find out about the company on the 'About Us' page and on this page there is a list of what is included with each tour.
+    - A user can see the company's values on the homepage under 'Why Choose Us?'.
+3. As a user, I want to know what tours are available and what the costs are.
+    - Users can find maps of the tour routes along with the cost of the trips on the 'Tours' page.
+4. As a user, I want to see images from the tours.
+    - Users can scroll to the bottom of the homepage to see a gallery of photographs from previous tours.
+5. As a user, I want to view the company's social media accounts.
+    - Users can access the social media links through the footer of any page of the website.
+6. As a user, I want to be able to contact the company.
+    - Users can fill out the contact form to reach the company.
+    - The contact form has its own dedicated page and there is also a link to it on the 'Tours' page.
+7. As a user, I want to be able to access the site on my mobile/tablet.
+    - The site is responsive and has been tested across devices.
+
+
+
+
+
 
 
 
