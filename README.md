@@ -190,7 +190,8 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 
   - [W3C HTML validator](https://validator.w3.org/) - I ran each page of the site through the validator and a few typos and stray /div tags were found. I amended these to remove the errors.
 
-  - [W3C CSS validator](http://jigsaw.w3.org/css-validator/) - No errors but a 'warning' that the button within the hero image had the same colour (black) for the background and the border. As this was intentional (the background becomes transparent when hovered over) I chose to ignore this warning. 
+  - [W3C CSS validator](http://jigsaw.w3.org/css-validator/) - No errors but a 'warning' that the button within the hero image had the same colour (black) for the background and the border. As this was intentional (the background becomes transparent when hovered over) I chose to ignore this warning.  
+  ![Warning message from CSS validator](pics/css-warning.png)
 
 ## Lighthouse
   - Screenshots of each page that I put through Lighthouse to measure performance-
@@ -285,7 +286,17 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 
     - The site is responsive and has been tested across devices.
 
+## Bugs
 
+- I had an issue with a horizontal scroll appearing on the homepage on mobile devices. I played around with DevTools and discovered I had padding around one of the card elements that was causing an overflow. I removed this and the horizonal scroll disappeared.
+
+- When I deployed the site to GitHub, some (not all) of the images were missing.  
+![Screenshot of missing images](pics/missing-images.png)  
+I then found out it was because I hadn't used the relative file path in the HTML code. Once I added '..' and removed 'assets', the images appeared.  
+
+- I had trouble with the form and the footer on the 'Contact' page.  
+![Contact page issue screenshot](pics/contact-footer.png)  
+I contacted Tutor Support who helped me and I added flex-grow and flex-direction: column to the CSS code which sorted out the page layout.
 
 
 # Deployment
