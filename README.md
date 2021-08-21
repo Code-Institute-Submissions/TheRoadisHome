@@ -1,14 +1,12 @@
-`python3 -m http.server`
-
-<a href="#">Live website</a>
-
 The Road is Home - logo
 
 The Road is Home is a fictional travel company based in Wales. The website will be targeted at primarily solo travellers who want to see the world and join a small escorted tour group.
 
-- Amiresponsive images
+This website was created for my 1st Milestone Project on Code Institute's Diploma in Web Application Development course.
 
-- Table of contents
+<a href="https://sara5491.github.io/TheRoadisHome/">Visit the live website</a>
+
+![Am I Responsive? image of website on different devices](pics/amiresponsive.png)
 
  # User Experience (UX)
 
@@ -55,7 +53,7 @@ I wanted the design of the website to be relatively simple, with a modern look w
 
 I decided that the main colour scheme would be grey, black and white with accents of coral.
 
-- COOLERS PALLETTE
+![Coolers colour palette](pics/colourpalette.png)
 
 I wanted the bright coral to provide some warmth and contrast to the otherwise quite subtle colours. I have used it as the colour of the footer, the icons and the headings on the 'About' page.
 
@@ -305,29 +303,28 @@ Instructions from [GitHub Docs](https://docs.github.com/en/github/creating-cloni
 # Credits
 
 ## Code
-• [Bootstrap library](https://getbootstrap.com/docs/5.0/getting-started/introduction/) used throughout the project to make the site responsive
+- [Bootstrap library](https://getbootstrap.com/docs/5.0/getting-started/introduction/) used throughout the project to make the site responsive
 
-• I used the [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/) template for the navigation bar and tour card containers
+- I used the [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/) template for the navigation bar and tour card containers
 
-• The hero image zoom idea was taken from the [Love Running](https://learn.codeinstitute.net/ci_program/diplomainwebapplicationdevelopment) project
+- The hero image zoom idea was taken from the [Love Running](https://learn.codeinstitute.net/ci_program/diplomainwebapplicationdevelopment) project
 
-• The 'Why Choose Us?' section layout was taken from the [Love Running](https://learn.codeinstitute.net/ci_program/diplomainwebapplicationdevelopment) Project
+- The 'Why Choose Us?' section layout was taken from the [Love Running](https://learn.codeinstitute.net/ci_program/diplomainwebapplicationdevelopment) Project
 
-• The contact us form was sourced from [Bootstrap](https://getbootstrap.com/docs/5.0/forms/overview/)
+- The contact us form was sourced from [Bootstrap](https://getbootstrap.com/docs/5.0/forms/overview/)
 
-• https://www.w3schools.com/html/default.asp and https://www.w3schools.com/css/default.asp were used to help with styling and layout
+- [W3Schools HTML](https://www.w3schools.com/html/default.asp) and [W3Schools CSS](https://www.w3schools.com/css/default.asp) were used to help with styling and layout
 
 
 
 ## Images
 
-* Images are my own.
+- Images are my own.
 
 
 ## Content
-
-* Written by me.
-* Company inspiration from https://www.gadventures.com/
+- Written by me.
+- Company inspiration from https://www.gadventures.com/
 
 
 ## Acknowledgements -

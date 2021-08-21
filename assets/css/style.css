@@ -31,7 +31,7 @@ h3 {
 }
 
 a:link {
-  color: coral;
+  color: #ff7f50;
   text-decoration: none;
 }
 
@@ -248,7 +248,7 @@ h1 {
     background-color: rgba(58, 58, 58, 0.5);
     width: 650px;
     padding: 20px;
-    border: 4px dashed black;
+    border: 4px dashed #000000;
     border-radius: 30px;
     display: block;
 }
