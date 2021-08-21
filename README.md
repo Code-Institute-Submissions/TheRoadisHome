@@ -8,7 +8,51 @@ This website was created for my 1st Milestone Project on Code Institute's Diplom
 
 ![Am I Responsive? image of website on different devices](pics/amiresponsive.png)
 
- # User Experience (UX)
+# Table of Contents
+
+- [User Experience (UX)](#user-experience--ux-)
+  * [Project Research](#project-research)
+  * [The Customer](#the-customer)
+  * [User goals](#user-goals)
+  * [Business goals](#business-goals)
+  * [Wireframes](#wireframes)
+- [Design](#design)
+  * [Colours](#colours)
+  * [Fonts](#fonts)
+  * [Styling](#styling)
+  * [Imagery](#imagery)
+  * [Layout](#layout)
+- [Features](#features)
+  * [Existing features](#existing-features)
+  * [Future features to implement](#future-features-to-implement)
+- [Technologies used](#technologies-used)
+  * [Languages](#languages)
+  * [Libraries/Tools/Programmes](#libraries-tools-programmes)
+- [Testing](#testing)
+  * [Validators](#validators)
+  * [Lighthouse](#lighthouse)
+    + [Homepage:](#homepage-)
+    + [About page:](#about-page-)
+    + [Tours page:](#tours-page-)
+    + [Contact page:](#contact-page-)
+  * [Manual testing](#manual-testing)
+    + [Navigation (on all pages)](#navigation--on-all-pages-)
+    + [Homepage](#homepage)
+    + [Footer](#footer)
+    + [Tours page](#tours-page)
+    + [About page](#about-page)
+    + [Contact page](#contact-page)
+  * [User Testing](#user-testing)
+  * [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  * [Code](#code)
+  * [Images](#images)
+  * [Content](#content)
+  * [Acknowledgements -](#acknowledgements--)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small> 
+# User Experience (UX)
 
 ## Project Research
 Over the past few years I have travelled with various group tours and have used a couple of different companies. This has given me a good understanding of what a customer looks for in a travel company and what they expect to find on their website.
@@ -43,6 +87,8 @@ As a business owner, I want:
 - to update/create/delete tours as needed
 - to enable users to contact the company with any queries
 - to share images from past customers to create connections and inspire users.
+
+## Wireframes
 
 
 # Design
@@ -84,15 +130,19 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 - Present on each page is:
 
 
-  - Navbar - This displays the 4 pages of the website: Home, Tours, About and Contact. The current page the user is on is underline so they always know where they are. On a desktop, the links are displayed horizontally at the top right of the page and when on a mobile/tablet, a 'hamburger' dropdown menu appears instead.
+  - Navbar - This displays the 4 pages of the website: Home, Tours, About and Contact. The current page the user is on is underline so they always know where they are. On a desktop, the links are displayed horizontally at the top right of the page and when on a mobile/tablet, a 'hamburger' dropdown menu appears instead.  
+  ![Nav bar image](pics/navbar.png)
 
-  - Logo - At the top left of each page is the company logo which takes the user to the homepage when clicked.
+  - Logo - At the top left of each page is the company logo which takes the user to the homepage when clicked.  
+  ![Company logo](pics/logo.png)
 
-  - Footer - This contains links to social media accounts which open in a new tab. The background colour is coral which stands out against the white background of each page.
+  - Footer - This contains links to social media accounts which open in a new tab. The background colour is coral which stands out against the white background of each page.  
+  ![Footer image](pics/footer.png)
 
 - Homepage
 
-  - Hero image
+  - Hero image  
+  ![Hero image](pics/heroimage.png)
 
       - The heading of 'Local and Worldwide Adventures' makes it immediately apparent what the website is for, when the user first enters.
   
@@ -102,7 +152,8 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
   
       - The hero image has a 3 second zoom effect upon loading, which I learnt how to do from the Love Running project.
 
-  - Popular tours 
+  - Popular tours  
+  ![Popular tours image](pics/populartours.png)
 
       - This instantly lets the user know the sort of tours that are available.
 
@@ -110,7 +161,8 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 
       - The buttons link to the 'Tours' page where the user can find more information.
 
-  - Why Choose Us?
+  - Why Choose Us?  
+  ![Why Choose Us? image](pics/whychooseus.png)
 
       - This section lets the user know what to expect with the tours we provide.
     
@@ -120,28 +172,33 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 
       - The grey background helps break up the homepage into sections.
 
-  - Gallery
+  - Gallery  
+  ![Gallery image](pics/gallery.png)
 
       - The photos are shown in a grid of x4 columns on desktop and x2 columns on tablets/mobiles.
 
-- Tours
+- Tours  
+![Our Tours page](pics/ourtours.png)
   - This page features a Bootstrap grid of 6 cards of the tours that are available. The cards switch to a column of 1 when displayed on a mobile screen which allows the user to see the maps and text clearly.
 
   - There is a link to the contact form at the bottom of the page which lets the user enquire about bookings.
 
-- About
+- About  
+![About page](pics/aboutus.png)
   - I wanted to keep this page simple so users can see the company's ethos and values at a glance.
 
   - I added a link to a PDF document containing the routes of the available tours which users can download if they wish.
 
-- Contact
+- Contact  
+![Contact Us page](pics/contactform.png)
   - This page contains a 'contact us' form which allows the user to contact the company with any queries and it also allows them to subscribe to the newsletter.
 
   - On larger devices, the contact form appears in the centre of the screen and on mobiles/tablets, the form size increases to the width of the device.
 
   - After submitting, the user is directed to the Code Institute server which lets them know their query has been submitted.
 
-- 404
+- 404  
+![404 error page](pics/404.png)
   - In the footer, alongside the links to social media, I have added a lightning bolt icon which takes the user to a sample 404 error page.
 
   - A button under the error message takes the user back to the homepage.
