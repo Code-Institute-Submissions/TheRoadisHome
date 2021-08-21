@@ -23,9 +23,16 @@ They are looking to travel with others that have similar interests.
 They want the flexibility to choose a trip with a cost and duration that suits them.
 They are looking for a service that provides them with support and takes away the stress and time involved in planning a trip.
 
-User Goals
+DEPLOYMENT
 
-Business Goals
+The project was created in GitPod and deployed to GitHub using the following steps:
+
+1. Log into GitHub
+2. Locate the repository (sara5491/TheRoadisHome)
+3. Click ‘Settings’ and locate ‘Pages’ on the left-hand side
+4. Under ’Source’ select ‘Branch: Main’ and click ‘Save’
+5. You will need to wait a few minutes for the site to be deployed. It will be accessible at: https://sara5491.github.io/TheRoadisHome/
+
 
 
 
