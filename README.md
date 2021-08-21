@@ -2,25 +2,74 @@
 
 <a href="#">Live website</a>
 
-The Road is Home
+The Road is Home - logo
 
 The Road is Home is a fictional travel company based in Wales. The website will be targeted at primarily solo travellers who want to see the world and join a small escorted tour group.
 
-Amiresponsive images
+- Amiresponsive images
 
-Table of contents
+- Table of contents
 
-User Experience (UX)
+ # User Experience (UX)
 
-Project Research
+## Project Research
 Over the past few years I have travelled with various group tours and have used a couple of different companies. This has given me a good understanding of what a customer looks for in a travel company and what they expect to find on their website.
 
-The Customer
-The ideal customer of the website is someone who is looking for a style of travel that benefits both the traveller and the places they visit.
-They want to travel in a way that is responsible and sustainable.
-They are looking to travel with others that have similar interests.
-They want the flexibility to choose a trip with a cost and duration that suits them.
-They are looking for a service that provides them with support and takes away the stress and time involved in planning a trip.
+## The Customer
+- The ideal customer of the website is someone who is looking for a style of travel that benefits both the traveller and the places they visit.
+- They want to travel in a way that is responsible and sustainable.
+- They are looking to travel with others that have similar interests.
+- They want the flexibility to choose a trip with a cost and duration that suits them.
+- They are looking for a service that provides them with support and takes away the stress and time involved in planning a trip.
+
+## User goals
+
+As a user visiting the website, I want:
+
+- to be able to navigate it easily
+- to understand the purpose
+- to know about the company's ethos
+- to find out what tours are available
+- to find out the costs involved
+- to view images that would inspire me
+- to be able to contact the company
+- to be able to access the company's social media accounts.
+
+## Business goals
+
+As a business owner, I want:
+
+- to sell group tours
+- to offer a platform for users to see what tours are on offer
+- to provide an online presence for the company
+- to update/create/delete tours as needed
+- to enable users to contact the company with any queries
+- to share images from past customers to create connections and inspire users.
+
+
+# Design
+
+I wanted the design of the website to be relatively simple, with a modern look which appeals to adults in the 20-40 age range.
+
+## Colours
+
+I decided that the main colour scheme would be grey, black and white with accents of coral.
+
+- COOLERS PALLETTE
+
+I wanted the bright coral to provide some warmth and contrast to the otherwise quite subtle colours. I have used it as the colour of the footer, the icons and the headings on the 'About' page.
+
+## Fonts
+
+I have decided on the fonts 'Raleway' for headings and 'Montserrat' for the body text which were both found on Google Fonts. They are simple, sans-serif typefaces which are easy to read, accessible and are not distracting to the user.
+
+
+
+
+
+
+
+
 
 DEPLOYMENT
 
