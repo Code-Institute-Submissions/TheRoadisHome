@@ -107,11 +107,11 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 <br>
   - Popular tours 
 
-    - This instantly lets the user know the sort of tours that are available.
+      - This instantly lets the user know the sort of tours that are available.
 
-    - The 3 cards are displayed horizontally and switch to vertical on mobile displays.
+      - The 3 cards are displayed horizontally and switch to vertical on mobile displays.
 
-    - The buttons link to the 'Tours' page where the user can find more information.
+      - The buttons link to the 'Tours' page where the user can find more information.
 <br>
 <br>
   - Why Choose Us?
