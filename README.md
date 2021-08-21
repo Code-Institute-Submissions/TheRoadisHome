@@ -90,7 +90,7 @@ As a business owner, I want:
 
 ## Wireframes
 
-[Links to wireframes](pics/wireframes.pdf)
+[Links to wireframes](pics/Wireframes.pdf)
 
 # Design
 
