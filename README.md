@@ -82,7 +82,7 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 
 ## Existing features
 
-<br>
+
 - Present on each page is:
 
 
@@ -103,8 +103,7 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
       - The 'read more' button takes the user to the 'About' page which tells them all about the company. I added a coral text shadow to the button so when hovered over, it stands out against the background.
   
       - The hero image has a 3 second zoom effect upon loading, which I learnt how to do from the Love Running project.
-<br>
-<br>
+
   - Popular tours 
 
       - This instantly lets the user know the sort of tours that are available.
@@ -112,22 +111,20 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
       - The 3 cards are displayed horizontally and switch to vertical on mobile displays.
 
       - The buttons link to the 'Tours' page where the user can find more information.
-<br>
-<br>
+
   - Why Choose Us?
 
-    - This section lets the user know what to expect with the tours we provide.
+      - This section lets the user know what to expect with the tours we provide.
     
-    - The text is displayed around the image and toggles to vertical on smaller screens.
+      - The text is displayed around the image and toggles to vertical on smaller screens.
 
-    - On mobile devices, the image disappears.
+      - On mobile devices, the image disappears.
 
-    - The grey background helps break up the homepage into sections.
-<br>
-<br>
+      - The grey background helps break up the homepage into sections.
+
   - Gallery
 
-    - The photos are shown in a grid of x4 columns on desktop and x2 columns on tablets/mobiles.
+      - The photos are shown in a grid of x4 columns on desktop and x2 columns on tablets/mobiles.
 
 - Tours
   - This page features a Bootstrap grid of 6 cards of the tours that are available. The cards switch to a column of 1 when displayed on a mobile screen which allows the user to see the maps and text clearly.
@@ -172,21 +169,21 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 
 ## Libraries/Tools/Programmes
 
-- Bootstrap - used to create a responsive layout
+- [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) - used to create a responsive layout
 
-- Google Fonts - to select and import fonts
-- FontAwesome - used to add icons
-- GitHub - project code stored in GitHub after being pushed
-- GitPod - used to develop the website
-- ProCreate - used to draw and create tour maps
-- ResizeImage.net - used to crop and resize images
-- Chrome DevTools - used extensively during developing and design process
-- Balsamiq - used to create wireframes
-- AmIResponsive? - used to check the responsiveness on different devices
-- Coolors.co - used to decide on overall colour scheme
-- Favicon - used to add a plane icon to the user's tab
-- Lighthouse - used to test performance of the site
-- W3C - HTML and CSS validators - used to validate code
+- [Google Fonts](https://fonts.google.com/) - to select and import fonts
+- [FontAwesome](https://fontawesome.com/) - used to add icons
+- [GitHub](https://github.com/) - project code stored in GitHub after being pushed
+- [GitPod](https://gitpod.io/workspaces) - used to develop the website
+- [ProCreate](https://procreate.art/) - used to draw and create tour maps
+- [ResizeImage.net](ResizeImage.net) - used to crop and resize images
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used extensively during developing and design process
+- [Balsamiq](https://balsamiq.com/) - used to create wireframes
+- [AmIResponsive?](http://ami.responsivedesign.is/) - used to check the responsiveness on different devices
+- [Coolors](https://coolors.co/) - used to decide on overall colour scheme
+- [Favicon](https://favicon.io/) - used to add a plane icon to the user's tab
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - used to test performance of the site
+- [W3C](https://validator.w3.org/) - HTML and CSS validators - used to validate code
 
 
 # Testing
@@ -223,10 +220,12 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
     - Verify 'contact us' link directs to correct page
 
   - ### About page
+  
     - Verify page is responsive
     - Verify link to PDF download opens in new tab
 
   - ### Contact page
+
     - Verify form/page is responsive
     - Verify that if you try and submit the form without the required fields, an error message appears
     - Verify that a valid email address containing @ is required to submit the form
@@ -236,39 +235,44 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 ## User Testing
 
 1. As a first time visitor to the site, I want to easily navigate it.
+
     - Users can use the navigation bar or click on the company logo from any page of the website to return to the homepage.
+
     - The layout is sectioned and titled so it is easy to see where each one starts and ends.
+
 2. As a user, I want to know what is being provided and what the values of the company are.
+
     - A user can find out about the company on the 'About Us' page and on this page there is a list of what is included with each tour.
+
     - A user can see the company's values on the homepage under 'Why Choose Us?'.
+
 3. As a user, I want to know what tours are available and what the costs are.
+
+
     - Users can find maps of the tour routes along with the cost of the trips on the 'Tours' page.
+
 4. As a user, I want to see images from the tours.
+
     - Users can scroll to the bottom of the homepage to see a gallery of photographs from previous tours.
+
 5. As a user, I want to view the company's social media accounts.
+
     - Users can access the social media links through the footer of any page of the website.
+
 6. As a user, I want to be able to contact the company.
+
     - Users can fill out the contact form to reach the company.
+
     - The contact form has its own dedicated page and there is also a link to it on the 'Tours' page.
+
 7. As a user, I want to be able to access the site on my mobile/tablet.
+
     - The site is responsive and has been tested across devices.
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-DEPLOYMENT
+# Deployment
 
 The project was created in GitPod and deployed to GitHub using the following steps:
 
@@ -296,36 +300,37 @@ Cloning a repository
 6. Type ‘git clone’ and paste the URL you have copied
 7. Press ‘enter’ to create your clone
 
-Instructions from GitHub Docs https://docs.github.com/en/github/creating-cloning-and-archiving-repositories
+Instructions from [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories)
 
-CREDITS
+# Credits
 
-Code-
-Bootstrap library (https://getbootstrap.com/docs/5.0/getting-started/introduction/) used throughout the project to make the site responsive
+## Code
+• [Bootstrap library](https://getbootstrap.com/docs/5.0/getting-started/introduction/) used throughout the project to make the site responsive
 
-I used the Bootstrap template for the navigation bar and tour card containers
+• I used the [Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/) template for the navigation bar and tour card containers
 
-The hero image zoom idea was taken from the Love Running project
+• The hero image zoom idea was taken from the [Love Running](https://learn.codeinstitute.net/ci_program/diplomainwebapplicationdevelopment) project
 
-The 'Why Choose Us?' section layout was taken from the Love Running Project
+• The 'Why Choose Us?' section layout was taken from the [Love Running](https://learn.codeinstitute.net/ci_program/diplomainwebapplicationdevelopment) Project
 
-The contact us form was sourced from Bootstrap
+• The contact us form was sourced from [Bootstrap](https://getbootstrap.com/docs/5.0/forms/overview/)
 
-https://www.w3schools.com/html/default.asp and https://www.w3schools.com/css/default.asp were used to help with styling and layout
-
-
-
-Images -
-
-Images are my own.
+• https://www.w3schools.com/html/default.asp and https://www.w3schools.com/css/default.asp were used to help with styling and layout
 
 
-Content -
 
-Company inspiration from https://www.gadventures.com/
+## Images
+
+* Images are my own.
 
 
-Acknowledgements -
+## Content
+
+* Written by me.
+* Company inspiration from https://www.gadventures.com/
+
+
+## Acknowledgements -
 
 Tutors at Code Institute and members of the Slack community for their help and support.
 
