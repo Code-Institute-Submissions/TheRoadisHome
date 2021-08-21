@@ -31,7 +31,7 @@ The project was created in GitPod and deployed to GitHub using the following ste
 2. Locate the repository (sara5491/TheRoadisHome)
 3. Click ‘Settings’ and locate ‘Pages’ on the left-hand side
 4. Under ’Source’ select ‘Branch: Main’ and click ‘Save’
-5. You will need to wait a few minutes for the site to be deployed. It will be accessible at: https://sara5491.github.io/TheRoadisHome/
+5. Wait a few minutes for the site to be deployed. It will be accessible at: https://sara5491.github.io/TheRoadisHome/
 
 
 
