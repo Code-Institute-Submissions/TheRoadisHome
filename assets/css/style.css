@@ -35,6 +35,20 @@ a:link {
   text-decoration: none;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.card {
+  border: 0
+}
+
+.my-5 {
+  margin-bottom: 20px;
+}
+
 /* NAV BAR */
 
 .nav-item {
@@ -56,8 +70,8 @@ nav a {
   border-bottom: 1px solid #404040;
 }
 
-
 /*HERO IMAGE*/
+
 #hero-outer{
     height: 400px;
     width: 100%;
@@ -98,7 +112,6 @@ nav a {
     color: white;
   }
 
-  
 #hero-text button {
     border: none;
     outline: 0;
@@ -124,74 +137,12 @@ nav a {
     border: 4px solid black;
     text-shadow: 2px 1px coral;
   }
+
+i {
+  color: coral;
+}
   
-  @media screen and (max-width: 700px) {
-    .box {
-      width: 70%;
-    }
-  }
-
-  @media screen and (max-width: 375px) {
-    #hero-text h1 {
-      font-size: 26pt;
-      padding-top: 80px;
-    }
-  }
-
-  @media screen and (max-width: 1024px) {
-    #hero-text h1 {
-      font-size: 22pt;
-      padding: 60px;
-    }
-  }
-  
-  i {
-    color: coral;
-  }
-  
-
-.card-img-top {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
-
-.card {
-    border: 0
-}
-
-
-
-.my-5 {
-    margin-bottom: 20px;
-}
-/* FOOTER */
-
-footer {
-    height: 80px;
-    background-color: coral;
-}
-
-.social-networks {
-    text-align: center;
-    padding: 0;
-}
-
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 150%;
-    margin: 1%;
-    padding: 10px;
-    color: #404040;
-}
-
-
-
 /* GALLERY */
-
 
 #our-tours {
     text-align: center;
@@ -220,12 +171,6 @@ footer {
     border-radius: 50%;
     padding: 5%;
 }
-
-@media screen and (max-width: 1024px) {
-  .gallery {
-  column-count: 2;
-  }
-}  
 
 /* CONTACT PAGE */
 
@@ -283,45 +228,6 @@ main {
 .section-container {
   margin-top: 20px;
 }
-
-@media screen and (max-width: 943px) {
-  .contact-us {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    margin-top: 10px;
-  }
-
-  .contact-form {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-  }
-
-  textarea {
-    width:90%;
-}
-}
-
-@media screen and (max-width: 1024px) {
-  .contact-form {
-    width: auto;
-    font-size: 24pt;
-    margin: 20px;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 414px) {
-  .contact-form {
-    width: auto;
-    font-size: 12pt;
-  }
-}
-
- 
-
-
 
 /* WHY CHOOSE US */
 
@@ -395,6 +301,238 @@ hr {
     background: url('../images/sun.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 30%; 
+}
+
+/* ABOUT PAGE */
+
+.about-us-page {
+  padding: 1em;
+}
+
+.heading {
+  text-align: center;
+}
+
+.who-are-we {
+  color:coral;
+  margin-top: 20px;
+}
+
+#road-home {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22pt;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.col-sm-12 {
+  background-color: rgba(215, 215, 212, 0.4);
+  border: 2px dashed coral;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* TOURS */
+
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  
+.container-tours {
+    display: table-cell;
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+h1.heading {
+    color: #fff;
+    font-size: 2em;
+    color: #404040;
+    margin-top: 20px;
+}
+
+.card {
+    display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18),0 2px 10px 0 rgba(0,0,0,0.14); 
+    transition: box-shadow .25s; 
+  }
+
+.card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.2);
+  }
+
+.img-card {
+    width: 100%;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    display:block;
+    overflow: hidden;
+  }
+  
+.img-card img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover; 
+    transition: all .25s ease;
+  } 
+
+.card-content {
+    padding:15px;
+    text-align:left;
+    font-size: 14pt;
+  }
+
+.card-title {
+    margin-top:0px;
+    font-weight: 700;
+    font-size: 1.65em;
+  }
+
+.card-title a {
+    color: #000;
+    text-decoration: none !important;
+  }
+
+.card-price {
+    border-top: 1.5px dotted coral;
+  }
+
+#tour-contact {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 18pt;
+      padding: 0 10px 0 10px;
+  }
+
+/* POPULAR TOURS */
+
+  .card-body p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28pt;
+    letter-spacing: 6px;
+  }
+
+  .card-body button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 5px;
+    color: black;
+    background-color: rgba(102, 101, 102, 0.096);
+    text-align: center;
+    border: 1px solid black;
+    font-size: 10pt;
+    letter-spacing: 8px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .card-body button:hover {
+    border: 2px solid black;
+    text-shadow: 1px 1px black;
+  }
+
+/* 404 ERROR PAGE */
+
+.error {
+  text-align: center;
+  font-size: 40pt;
+  margin: 60px;
+}
+
+/* FOOTER */
+
+footer {
+  height: 80px;
+  background-color: coral;
+}
+
+.social-networks {
+  text-align: center;
+  padding: 0;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 150%;
+  margin: 1%;
+  padding: 10px;
+  color: #404040;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #hero-text h1 {
+    font-size: 26pt;
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #hero-text h1 {
+    font-size: 22pt;
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery {
+  column-count: 2;
+  }
+} 
+
+@media screen and (max-width: 943px) {
+  .contact-us {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .contact-form {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  textarea {
+    width:90%;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-form {
+    width: auto;
+    font-size: 24pt;
+    margin: 20px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .contact-form {
+    width: auto;
+    font-size: 12pt;
+  }
 }
 
 @media screen and (max-width: 1366px) {
@@ -509,34 +647,22 @@ hr {
     width:100%;
   }
 }
-/* ABOUT PAGE */
 
-.about-us-page {
-  padding: 1em;
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
 }
-
-.heading {
-  text-align: center;
+@media (min-width: 760px) {
+  h1.heading {
+   font-size: 3.05em;
+   }
 }
-
-.who-are-we {
-  color:coral;
-  margin-top: 20px;
-}
-
-#road-home {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 22pt;
-  font-style: italic;
-  font-weight: 100;
-}
-
-.col-sm-12 {
-  background-color: rgba(215, 215, 212, 0.4);
-  border: 2px dashed coral;
-  padding: 20px;
-  margin-bottom: 20px;
+  @media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
 }
 
 @media screen and (max-width: 1366px) {
@@ -550,130 +676,3 @@ hr {
     font-size: 18px;
   }
 }
-
-  /* TOURS */
-
-  .wrapper {
-    display: table;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .container-tours {
-    display: table-cell;
-    padding: 1em;
-    text-align: center;
-    vertical-align: middle;
-  }
-  
-  h1.heading {
-    color: #fff;
-    font-size: 2em;
-    color: #404040;
-    margin-top: 20px;
-  }
-
-  @media (min-width: 450px) {
-    h1.heading {
-      font-size: 3.55em;
-    }
-  }
-  @media (min-width: 760px) {
-    h1.heading {
-      font-size: 3.05em;
-    }
-  }
-  @media (min-width: 900px) {
-    h1.heading {
-      font-size: 3.25em;
-      margin: 0 0 0.3em;
-    }
-  } 
-  .card {
-    display: block; 
-    margin-bottom: 20px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.18),0 2px 10px 0 rgba(0,0,0,0.14); 
-    transition: box-shadow .25s; 
-  }
-  .card:hover {
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.2);
-  }
-  .img-card {
-    width: 100%;
-    border-top-left-radius:2px;
-    border-top-right-radius:2px;
-    display:block;
-    overflow: hidden;
-  }
-  
-  .img-card img{
-    width: 100%;
-    height: 200px;
-    object-fit:cover; 
-    transition: all .25s ease;
-  } 
-  .card-content {
-    padding:15px;
-    text-align:left;
-    font-size: 14pt;
-  }
-  .card-title {
-    margin-top:0px;
-    font-weight: 700;
-    font-size: 1.65em;
-  }
-  .card-title a {
-    color: #000;
-    text-decoration: none !important;
-  }
-  .card-price {
-    border-top: 1.5px dotted coral;
-  }
-
-  #tour-contact {
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 18pt;
-      padding: 0 10px 0 10px;
-  }
-
-
-  /* POPULAR TOURS */
-
-  .card-body p {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 28pt;
-    letter-spacing: 6px;
-  }
-
-  .card-body button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 5px;
-    color: black;
-    background-color: rgba(102, 101, 102, 0.096);
-    text-align: center;
-    border: 1px solid black;
-    font-size: 10pt;
-    letter-spacing: 8px;
-    font-weight: bold;
-    font-style: italic;
-  }
-
-  .card-body button:hover {
-    border: 2px solid black;
-    text-shadow: 1px 1px black;
-  }
-
-  /* 404 ERROR PAGE */
-
-  .error {
-    text-align: center;
-    font-size: 40pt;
-    margin: 60px;
-  }
