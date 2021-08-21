@@ -1,4 +1,4 @@
-The Road is Home - logo
+![The Road is Home logo](pics/logo.png)
 
 The Road is Home is a fictional travel company based in Wales. The website will be targeted at primarily solo travellers who want to see the world and join a small escorted tour group.
 
@@ -193,7 +193,25 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
   - [W3C CSS validator](http://jigsaw.w3.org/css-validator/) - No errors but a 'warning' that the button within the hero image had the same colour (black) for the background and the border. As this was intentional (the background becomes transparent when hovered over) I chose to ignore this warning. 
 
 ## Lighthouse
-  - screenshots
+  - Screenshots of each page that I put through Lighthouse to measure performance-
+
+  ### Homepage:
+  
+  ![homepage screenshot from Lighthouse](pics/html-lighthouse.png)  
+
+  ### About page:
+  
+  ![about page screenshot from Lighthouse](pics/about-lighthouse1.png)  
+  The SEO on this page was low as I linked to the PDF document using 'Click here'. Once I amended it, the SEO increased.  
+  ![about page screenshot from Lighthouse after amending](pics/about-lighthouse2.png)  
+
+  ### Tours page:  
+  ![Tours page screenshot from Lighthouse](pics/tours-lighthouse.png)  
+
+  ### Contact page:  
+  ![Contact page screenshot from Lighthouse](pics/contact-lighthouse.png)  
+
+
 
 
 ## Manual testing
@@ -323,8 +341,8 @@ Instructions from [GitHub Docs](https://docs.github.com/en/github/creating-cloni
 
 
 ## Content
-- Written by me.
-- Company inspiration from https://www.gadventures.com/
+- Written by me
+- Company inspiration from [G Adventures](https://www.gadventures.com/).
 
 
 ## Acknowledgements -
