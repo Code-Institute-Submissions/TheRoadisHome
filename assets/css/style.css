@@ -246,7 +246,7 @@ h1 {
     margin: auto;
     color: #fff;
     background-color: rgba(58, 58, 58, 0.5);
-    width: 600px;
+    width: 650px;
     padding: 20px;
     border: 4px dashed black;
     border-radius: 30px;
@@ -308,13 +308,14 @@ main {
     width: auto;
     font-size: 24pt;
     margin: 20px;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 414px) {
   .contact-form {
     width: auto;
-    font-size: 16pt;
+    font-size: 12pt;
   }
 }
 
@@ -325,7 +326,7 @@ main {
 /* WHY CHOOSE US */
 
 #choose-us {
-    height: 500px;
+    height: 550px;
     background-color: rgba(102, 101, 102, 0.096);
 }
 
