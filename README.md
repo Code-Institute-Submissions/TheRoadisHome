@@ -80,9 +80,11 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 
 # Features
 
-- ## Existing features
+## Existing features
 
+<br>
 - Present on each page is:
+
 
   - Navbar - This displays the 4 pages of the website: Home, Tours, About and Contact. The current page the user is on is underline so they always know where they are. On a desktop, the links are displayed horizontally at the top right of the page and when on a mobile/tablet, a 'hamburger' dropdown menu appears instead.
 
@@ -93,6 +95,7 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 - Homepage
 
   - Hero image
+
       - The heading of 'Local and Worldwide Adventures' makes it immediately apparent what the website is for, when the user first enters.
   
       - This is always 100% width of the screen.
@@ -102,8 +105,8 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
       - The hero image has a 3 second zoom effect upon loading, which I learnt how to do from the Love Running project.
 <br>
 <br>
-
   - Popular tours 
+
     - This instantly lets the user know the sort of tours that are available.
 
     - The 3 cards are displayed horizontally and switch to vertical on mobile displays.
@@ -112,6 +115,7 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
 <br>
 <br>
   - Why Choose Us?
+
     - This section lets the user know what to expect with the tours we provide.
     
     - The text is displayed around the image and toggles to vertical on smaller screens.
@@ -119,6 +123,72 @@ I chose to design a multi-page website as I feel it is easier to navigate, as it
     - On mobile devices, the image disappears.
 
     - The grey background helps break up the homepage into sections.
+<br>
+<br>
+  - Gallery
+
+    - The photos are shown in a grid of x4 columns on desktop and x2 columns on tablets/mobiles.
+
+- Tours
+  - This page features a Bootstrap grid of 6 cards of the tours that are available. The cards switch to a column of 1 when displayed on a mobile screen which allows the user to see the maps and text clearly.
+
+  - There is a link to the contact form at the bottom of the page which lets the user enquire about bookings.
+
+- About
+  - I wanted to keep this page simple so users can see the company's ethos and values at a glance.
+
+  - I added a link to a PDF document containing the routes of the available tours which users can download if they wish.
+
+- Contact
+  - This page contains a 'contact us' form which allows the user to contact the company with any queries and it also allows them to subscribe to the newsletter.
+
+  - On larger devices, the contact form appears in the centre of the screen and on mobiles/tablets, the form size increases to the width of the device.
+
+  - After submitting, the user is directed to the Code Institute server which lets them know their query has been submitted.
+
+- 404
+  - In the footer, alongside the links to social media, I have added a lightning bolt icon which takes the user to a sample 404 error page.
+
+  - A button under the error message takes the user back to the homepage.
+
+## Future features to implement
+
+- a page of positive customer reviews/feedback
+- ability for customers to book tours online
+- customer accounts - allow users to log in and view their booking information
+- a section/page that connects the company's Instagram and automatically displays the latest images posted
+- a page with more information on responsible travel and overtourism
+- a search box for users to find what they're looking for quickly
+- blog section that travellers can contribute to
+- a 'thank you' message that appears when the contact form has been submitted.
+
+# Technologies used
+
+## Languages
+
+- HTML5 - used as main language for website.
+
+- CSS - used to style the web pages.
+
+## Libraries/Tools/Programmes
+
+- Bootstrap - used to create a responsive layout
+
+- Google Fonts - to select and import fonts
+- FontAwesome - used to add icons
+- GitHub - project code stored in GitHub after being pushed
+- GitPod - used to develop the website
+- ProCreate - used to draw and create tour maps
+- ResizeImage.net - used to crop and resize images
+- Chrome DevTools - used extensively during developing and design process
+- Balsamiq - used to create wireframes
+- AmIResponsive? - used to check the responsiveness on different devices
+- Coolors.co - used to decide on overall colour scheme
+- Favicon - used to add a plane icon to the user's tab
+- Lighthouse - used to test performance of the site
+- W3C - HTML and CSS validators - used to validate code
+
+
 
 
 
