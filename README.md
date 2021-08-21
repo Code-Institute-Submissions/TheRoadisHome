@@ -90,6 +90,7 @@ As a business owner, I want:
 
 ## Wireframes
 
+[Links to wireframes](pics/wireframes.pdf)
 
 # Design
 
@@ -413,7 +414,7 @@ Instructions from [GitHub Docs](https://docs.github.com/en/github/creating-cloni
 - Company inspiration from [G Adventures](https://www.gadventures.com/).
 
 
-## Acknowledgements -
+## Acknowledgements
 
 Tutors at Code Institute and members of the Slack community for their help and support.
 
